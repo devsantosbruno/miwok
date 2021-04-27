@@ -4,24 +4,16 @@ public class Word {
 
     private String mDefaultTranslation;
 
-    /**
-     * Miwok translation for the word
-     */
+    /** Miwok translation for the word */
     private String mMiwokTranslation;
 
-    /**
-     * Audio resource ID for the word
-     */
+    /** Audio resource ID for the word */
     private int mAudioResourceId;
 
-    /**
-     * Image resource ID for the word
-     */
+    /** Image resource ID for the word */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    /**
-     * Constant value that represents no image was provided for this word
-     */
+    /** Constant value that represents no image was provided for this word */
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
@@ -29,8 +21,8 @@ public class Word {
      *
      * @param defaultTranslation is the word in a language that the user is already familiar with
      *                           (such as English)
-     * @param miwokTranslation   is the word in the Miwok language
-     * @param audioResourceId    is the resource ID for the audio file associated with this word
+     * @param miwokTranslation is the word in the Miwok language
+     * @param audioResourceId is the resource ID for the audio file associated with this word
      */
     public Word(String defaultTranslation, String miwokTranslation, int audioResourceId) {
         mDefaultTranslation = defaultTranslation;
@@ -43,9 +35,9 @@ public class Word {
      *
      * @param defaultTranslation is the word in a language that the user is already familiar with
      *                           (such as English)
-     * @param miwokTranslation   is the word in the Miwok language
-     * @param imageResourceId    is the drawable resource ID for the image associated with the word
-     * @param audioResourceId    is the resource ID for the audio file associated with this word
+     * @param miwokTranslation is the word in the Miwok language
+     * @param imageResourceId is the drawable resource ID for the image associated with the word
+     * @param audioResourceId is the resource ID for the audio file associated with this word
      */
     public Word(String defaultTranslation, String miwokTranslation, int imageResourceId,
                 int audioResourceId) {
