@@ -1,5 +1,3 @@
-#!/usr/bin/env sh
-
 PRG="$0"
 
 while [ -h "$PRG" ] ; do
